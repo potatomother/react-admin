@@ -62,6 +62,11 @@ const menus: {
             title: '表格',
             icon: 'copy',
             subs: [
+                {
+                    key: '/app/table/basicTableTest',
+                    title: '基础表格test',
+                    component: 'BasicTableTest',
+                },
                 { key: '/app/table/basicTable', title: '基础表格', component: 'BasicTable' },
                 { key: '/app/table/advancedTable', title: '高级表格', component: 'AdvancedTable' },
                 {
